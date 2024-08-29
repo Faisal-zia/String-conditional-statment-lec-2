@@ -63,5 +63,6 @@ if(age >= 18):
       rem = num % 2
       if(rem == 0):
        print("even number")
+      else:
        print("odd number")
                 

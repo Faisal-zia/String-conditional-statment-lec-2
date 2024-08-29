@@ -45,3 +45,23 @@ elif(light == "green"):
     print("go")
     
 # else
+
+
+# Nesting (if within if)
+ 
+age=72
+if(age >= 18):
+    if(age >=70):
+      
+      print("cannot drive")
+    else:
+      print("can drive")
+      
+      # Practice nesting
+      
+      num = int(input("enter number: "))
+      rem = num % 2
+      if(rem == 0):
+       print("even number")
+       print("odd number")
+                
